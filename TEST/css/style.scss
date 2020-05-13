@@ -1,0 +1,98 @@
+@import "_normalize.scss";
+
+body{
+    background-color: #f4f4f4;
+}
+
+
+/* HEADER */
+header{
+    background-color: #222222;
+    color: #fff;
+
+    .logo-header{
+        width: 100%;
+        max-width: 10vw;
+    }
+        
+}
+
+main{
+
+    .cover-event{min-height: 30vw;background:#FFFFFF url("../img/films/FOND-topgun.jpg") no-repeat scroll top center / cover;}
+ 
+
+    .box-event {background-color: #ffffff;margin-top: -20vw; margin-bottom: 3vw; padding-top: 3vw;padding-bottom: 3vw;
+        .carousel-actu{
+            img{
+                max-height: 400px;
+            }
+            
+        }
+        .carousel-caption{
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .films-affiche{
+            h1{
+                margin: 3vw;
+            }
+            .films-affiche-box{
+                padding-top: 3vw;
+                padding-bottom: 3vw;
+                    img{
+                        max-width: 150px;
+                        max-height: 200px;
+        
+                        &:hover{
+                        transform: scale(1.1);
+                    }
+                     
+                }
+            } 
+        }
+       
+        
+        .coups-coeur{
+            h2{
+                margin: 3vw;
+            }
+            .coups-coeur-box{
+                
+                .box1{
+                    padding-top: 3vw;
+                padding-bottom: 3vw;
+                }
+
+                .box2{
+                    padding-top: 3vw;
+                padding-bottom: 3vw;
+                }
+
+                h3{
+                    padding-bottom: 1vw;
+                }
+                img{
+                    max-width: 200px;
+                    max-height: 250px;
+    
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+    
+            }
+            }
+        }
+       
+    }
+
+
+}
+
+footer{
+    background-color: #222222;
+    color: #fff;
+    min-height: 5vw;
+
+    
+}

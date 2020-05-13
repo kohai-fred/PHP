@@ -1,0 +1,40 @@
+***************************************************
+Introduction
+***************************************************
+
+
+Définition du PHP :
+PHP pour Hypertext Preprocessor
+
+C'est un langage de programmation de script, spécialement conçu pour le développement de site web.
+
+C'est un langage interprété côté serveur.
+
+
+----------------------------
+Exemple d'utilisation du PHP :
+Formulaire de connexion.
+
+
+----------------------------
+Différence entre 1 site statique et 1 site dynamique.
+
+
+----------------------------
+Architecture Client / Serveur
+
+Définition d'un serveur HTTP : 
+La fonction principale d'un serveur Web ou encore appelé HTTP est de STOCKER et de DELIVRER les pages web répondant à une requête HTTP envoyée par un client (=navigateur). HTTP signifie HyperText Transfert Protocol. C'est un protocoloe qui permet de dialoguer entre le logiciel client, généralement un navigateur web, et le serveur HTTP.
+
+M   pour Mac
+A   pour Apache (serveur)
+M   pour MySQL (SGBD)
+P   pour interpréteur PHP
+
+X   pour tous les OS
+A   pour Apache (serveur)
+M   pour MySQL (SGBD)
+P   pour interpréteur PHP
+P   pour interpréteur Perl
+
+***************************************************
